@@ -1,0 +1,238 @@
+body,
+html {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+/* nav */
+
+.header {
+    background-color: #262626;
+    height: 170px;
+}
+
+.bar-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.svg-icon {
+    min-width: 26px;
+    min-height: 26px;
+    cursor: pointer;
+}
+
+.card .d-flex {
+    gap: 10px;
+}
+
+.aftertitle {
+    height: 102px;
+}
+
+.spanText {
+    font-family: 'Karla', sans-serif;
+    font-size: 23px;
+}
+
+
+/* banners */
+
+.MainImages {
+    width: 100%;
+    height: 1080px;
+    object-fit: cover;
+}
+
+/* buttons */
+.custom-button {
+    width: 234px;
+    height: 69px;
+    border-radius: 16px;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+}
+
+.heart-icon {
+    width: 40px;
+    height: 30px;
+}
+
+.product-cards-button {
+    width: 274px;
+    height: 69px;
+    color: #FFFFFF;
+    background-color: #262626;
+    border-radius: 16px;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+}
+
+.custom-text-800-60px-turquoise {
+    font-family: 'Karla', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70.14px;
+    color: #77FBE8;
+}
+
+/* text */
+.custom-text-800-50px-turquoise {
+    font-family: 'Karla', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.45px;
+    color: #77FBE8;
+}
+
+.custom-text-italic-white {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 66.65px;
+    color: white;
+}
+
+.custom-text-400-30px-white {
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.07px;
+    color: white;
+}
+
+.footer-text-700 {
+    font-family: 'Karla', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #77FBE8;
+}
+
+.footer-text-400-23px {
+    font-family: 'Karla', sans-serif;
+    font-size: 23px;
+    line-height: 26.89px;
+    color: #FFFFFF;
+}
+
+.footer-end-text {
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .footer-end-text::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+  }
+  
+  .footer-end-text:hover::after {
+    width: 100%;
+  }
+  
+  
+
+/* other */
+
+.new-collection {
+    background-color: #F2F2F2;
+    height: 90px;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+.new-collection {
+    height: 90px;
+}
+
+.footer-img img {
+    width: 100%;
+    max-height: 412px;
+    object-fit: cover;
+    object-position: 0 33%;
+}
+
+.form-field {
+    width: 431px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.footer-botom {
+    width: 100%;
+    background-color: #262626;
+}
+
+.container-footer-svg {
+    max-width: 1260px;
+}
+
+.line-divider {
+    width: 95%;
+    height: 1px;
+    background-color: #939393;
+    margin: 20px 0;
+  }
+
+  /* hear animation */
+
+.heart-icon {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .heart-path {
+    fill: none;
+    stroke: #262626;
+    transition: fill 0.3s ease, stroke 0.3s ease;
+  }
+  
+  .heart-icon.liked .heart-path {
+    fill: #262626; 
+    stroke: #262626; 
+  }
+  
+  .heart-icon:active {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-out;
+  }
+  
+  .heart-icon {
+    transition: transform 0.2s ease-out;
+  }
+
+/* media */
+
+@media (max-width: 834px) {
+    .MainImages {
+        height: 640px;
+    }
+
+    .forms {
+        max-width: 60%;
+    }
+
+    
+
+}
+  
+  
